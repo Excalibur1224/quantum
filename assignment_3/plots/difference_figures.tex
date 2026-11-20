@@ -1,0 +1,58 @@
+\newcommand{\plotcell}[2]{%
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{#1}
+        \caption{#2}
+    \end{subfigure}%
+}
+
+\begin{figure}[H]
+    \centering
+    \plotcell{"images/pt4/Uniform Regular.png"}{Uniform Regular}\hfill
+    \plotcell{"images/pt4/Normal Regular.png"}{Normal Regular}
+
+    \medskip
+    \plotcell{"images/pt4/Binary Regular.png"}{Binary Regular}\hfill
+    \plotcell{"images/pt4/Uniform Erdos-Renyi.png"}{Uniform Erdos-Renyi}
+
+    \medskip
+    \plotcell{"images/pt4/Normal Erdos-Renyi.png"}{Normal Erdos-Renyi}\hfill
+    \plotcell{"images/pt4/Binary Erdos-Renyi.png"}{Binary Erdos-Renyi}
+    \caption{Steepest-descent energy difference}
+    \label{fig:diff-page1}
+\end{figure}
+\clearpage
+
+\begin{figure}[H]
+    \centering
+    \plotcell{"images/pt4/Uniform Full.png"}{Uniform Full}\hfill
+    \plotcell{"images/pt4/Normal Full.png"}{Normal Full}
+
+    \medskip
+    \plotcell{"images/pt4/Binary Full.png"}{Binary Full}\hfill
+    \plotcell{"images/pt4/Uniform Square.png"}{Uniform Square}
+
+    \medskip
+    \plotcell{"images/pt4/Normal Square.png"}{Normal Square}\hfill
+    \plotcell{"images/pt4/Binary Square.png"}{Binary Square}
+    \caption{Steepest-descent energy difference}
+    \label{fig:diff-page2}
+\end{figure}
+\clearpage
+
+\begin{figure}[H]
+    \centering
+    \plotcell{"images/pt4/Uniform Barabasi-Albert (1).png"}{Uniform Barabasi-Albert (1)}\hfill
+    \plotcell{"images/pt4/Normal Barabasi-Albert (1).png"}{Normal Barabasi-Albert (1)}
+
+    \medskip
+    \plotcell{"images/pt4/Binary Barabasi-Albert (1).png"}{Binary Barabasi-Albert (1)}\hfill
+    \plotcell{"images/pt4/Uniform Barabasi-Albert (2).png"}{Uniform Barabasi-Albert (2)}
+
+    \medskip
+    \plotcell{"images/pt4/Normal Barabasi-Albert (2).png"}{Normal Barabasi-Albert (2)}\hfill
+    \plotcell{"images/pt4/Binary Barabasi-Albert (2).png"}{Binary Barabasi-Albert (2)}
+    \caption{Steepest-descent energy difference}
+    \label{fig:diff-page3}
+\end{figure}
+\clearpage
